@@ -3,16 +3,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion
+    <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.bits</groupId>
     <artifactId>jenkins-ci-lab</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+
     <name>Jenkins_CI_Lab</name>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -20,6 +24,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -27,4 +32,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
