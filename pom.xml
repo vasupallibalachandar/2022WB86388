@@ -10,7 +10,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Jenkins_CI_Lab</name>
+    <name>Jenkins_CI</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
